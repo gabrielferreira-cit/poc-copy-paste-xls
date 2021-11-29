@@ -1,10 +1,17 @@
 .App {
+  margin: auto;
   text-align: center;
+  width: 200px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Form {
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
 }
 
 @media (prefers-reduced-motion: no-preference) {
